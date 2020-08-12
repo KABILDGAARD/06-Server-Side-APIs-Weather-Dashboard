@@ -1,1 +1,62 @@
+html,body {
+    font: 100% Montserrat, Helvetica;
+    font-weight: 200;
+    height: 100%;
+    line-height: 1.5;
+    margin: 0;
+  }
 
+.searcharea {
+    background-color: #e6f2ff;
+    padding: 20px;
+}
+
+#searchleft {
+    color: black;
+}
+
+.uvindex {
+    padding: 5px;
+}
+
+.one-fifth {
+    box-sizing: border-box;
+    width: 20%;
+    margin: 0 auto;
+    padding: 5px;
+    padding-bottom: 15%;
+    
+}
+
+.one-fifth:first-child {
+    margin-left: 0px;
+}
+
+.one-fifth:last-child{
+    margin-right: 0px;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#searchbtn{
+    padding: 6px 6px 6px 6px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: green;
+
+}
+
+#clearbtn {
+    padding: 6px 6px 6px 6px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: red;
+
+}
